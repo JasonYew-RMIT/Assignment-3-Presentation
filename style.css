@@ -1,0 +1,154 @@
+body,html {
+
+        font-family: 'Open Sans', sans-serif;
+        font-size: 16px;
+        margin-left:10%;
+        margin-right:10%;
+        margin-bottom:10%;
+        margin-top:1%;
+        background-image: url("frontbg.png");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        box-shadow: inset 0 0 0 700px rgba(0,0,0,.6);
+        color: white
+
+
+
+      }
+#BacktoTopBtn {
+ display: none;
+ position: fixed;
+ bottom: 20px;
+ right: 30px;
+ z-index: 100;
+ font-size: 19px;
+ border: none;
+ outline: none;
+ background-color: turquoise;
+ color: white;
+ cursor: pointer;
+ padding: 15px;
+ border-radius: 4px;
+}
+h2{
+  border-bottom:2px solid #0dc9ff; padding: 20px;
+  border-top:2px solid #0dc9ff;
+  text-align: center;
+  font-size: 24px;
+}
+h3{
+  text-decoration: underline;
+}
+
+.navbar{
+  position: absolute;
+    left: 50%;
+    padding: 10px;
+}
+.span1{
+  position: relative;
+  left: -50%;
+  padding: 0px;
+}
+      .navbar ul {
+        list-style-type: none;
+        margin: -50px;
+        padding: 20px;
+        overflow: hidden;
+        background-color: transparent;
+        display: block;
+      }
+      .navbar li{
+        float: left;
+        display: block;
+      }
+      .navbar li a{
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 15px;
+        text-decoration: none;
+        display: block;
+      }
+.mainheading{
+  padding: 5px;
+}
+
+ #BacktoTopBtn:hover {
+   background-color: white;
+ }
+ #BacktoTopBtn {
+ display: none;
+ position: fixed;
+ bottom: 20px;
+ right: 30px;
+ z-index: 99;
+ font-size: 18px;
+ border: none;
+ outline: none;
+ background-color: darkgrey;
+ color: white;
+ cursor: pointer;
+ padding: 15px;
+ border-radius: 4px;
+}
+
+
+ #BacktoTopBtn:hover {
+   background-color: black;
+ }
+a{
+  color: turquoise
+}
+a:link {
+  color: turquoise;
+}
+
+a:visited {
+  color: turquoise;
+}
+
+#TopTitle {
+  text-align: center;
+  font-family: 'Source Code Pro', monospace;
+}
+#TeamName {
+  text-align: center;
+  font-family: 'Caveat', cursive;
+  font-size: 60px;
+  padding-bottom:5px;
+
+}
+table {
+			border:1px solid #b3adad;
+			border-collapse:collapse;
+			padding:5px;
+		}
+		table th {
+			border:1px solid #b3adad;
+			padding:5px;
+			background: rgba(0,0,0,.2);
+			color: #ffffff;
+		}
+		table td {
+			border:1px solid #b3adad;
+			text-align:center;
+			padding:5px;
+			background: rgba(0,0,0,.2);
+			color: #ffffff;
+		}
+   .center{
+     align-items: center;
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+   }
+
+td li{
+  text-align: left;
+}
+td p{
+  text-align: left;
+}
+
